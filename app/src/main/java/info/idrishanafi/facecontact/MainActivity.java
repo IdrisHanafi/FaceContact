@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mFaceOverlayView = (FaceOverlayView) findViewById( R.id.face_overlay );
 
-        InputStream stream = getResources().openRawResource( R.raw.face );
+        InputStream stream = getResources().openRawResource( R.raw.fag );
         Bitmap bitmap = BitmapFactory.decodeStream(stream);
 
         mFaceOverlayView.setBitmap(bitmap);
